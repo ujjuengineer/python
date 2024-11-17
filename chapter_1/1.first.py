@@ -1,6 +1,7 @@
 # printing a string
 # NOTE that we can write string in single, double or triple quots as well
 print("hello world")
+print()
 
 """ this is how we write multiline comments in python """
 

@@ -18,8 +18,15 @@ a = "2"
 b = 4.69
 print("type of a before conversion",type(a))
 a = int(a) # c++ me c = (int)a krte hai
+
+'''
+note that in cpp we can't convert string into integer using (int)str, we have to use stoi(str) to convert a string into an integer
+'''
+
 print("type of a after conversion",type(a))
 print()
+
+print(a)
 
 
 

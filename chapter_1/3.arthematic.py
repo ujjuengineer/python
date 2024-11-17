@@ -2,7 +2,7 @@ print("sum =",3+2)
 print("difference =",6-3)
 print("mul =",2*2)
 print("divide =",6/2)
-print()
+print() # to give a blank line
 
 print(7/2) # yaha pr apne aap conversion kr lega int ka float me
 print()
@@ -32,4 +32,3 @@ print(num)
 """ 
 note: we can't do print(num += 6) inside the print statement 
 """
-
