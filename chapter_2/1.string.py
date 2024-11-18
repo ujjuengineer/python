@@ -3,7 +3,7 @@
 str1 = 'my name is ras"tav.' 
 
 # we use \n to print the string in next line
-str2 = "my name is ujjwal kumar sharma.\ni love Her❤️."
+str2 = "my name is ujjwal kumar sharma.\ni love ram❤️."
 
 
 # we can add 2 string using +
