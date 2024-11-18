@@ -22,9 +22,11 @@ print()
 stringList = ["Ujjw", "rass", "ujjw", "Ras"]
 print(stringList.sort()) # this will return none, because list.sort() don't have any return value
 print(stringList)
+print()
 
 
 # reverse the list, changes are done in original list
+print("list before reversing :",list)
 list.reverse()
 print("list after reversing :",list)
 
