@@ -1,5 +1,5 @@
 # tupple are builtin data type in python just like a list, but the difference is that tupples are immutable unlike list
-tup = (1,2,3,4)
+tup = (1,2,3,4,"ujj")
 print(type(tup))
 print()
 
@@ -7,7 +7,7 @@ print()
 
 # we can create an empty tupple
 tup2 = ()
-print("type of tup2 is",type(tup2))
+print("type of tup2 is",type(tup2)) # tuple
 print()
 
 # we can create tupple of single element as well
@@ -28,5 +28,5 @@ print(newTup.index(3)) # give the index of first occurrence of 3
 print(newTup.count(3)) # give frequency of 3
 print()
 
-# to sort a tup we use
+# to sort a tup we use 
 print(sorted(newTup)) # sorted(tup) will create a new tupple, will make any changes in original tup as tupple are immutable

@@ -20,7 +20,7 @@ print(type(name))
 print(type(age))
 print(type(price))
 
-# none data type is a kind of datatype which don't have any value
+# none data type is a kind of datatype which don't have any value   
 x = None
 print(x)
 print(type(x))

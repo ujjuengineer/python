@@ -1,8 +1,8 @@
 # sets is a collection of unordered items
 # each elements in the set must be unique and immutable
 
-collection = {1,2,2,3,3,3,4,5,"ujjwal","ras","ujjwal","ras"} 
-# repeated elements stored only once, so it resolved to {1,2,3,4,5,"ujjwal","ras"}
+collection = {1,2,2,3,3,3,4,5,"ujjwal","ram","ujjwal","ram"} 
+# repeated elements stored only once, so it resolved to {1,2,3,4,5,"ujjwal","ram"}
 print(collection) # it will ignore the duplicates value
 print()
 

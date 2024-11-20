@@ -10,6 +10,6 @@ student = ["ujjwal", 21, 8.79]
 print(student[0])
 
 # note that strings are immutabel in python whereas lists are mutable, i.e., we can change the lists using index, (can also be done in cpp)
-student[0] = "ras"
+student[0] = "mum"
 print("student after mutation :",student)
 

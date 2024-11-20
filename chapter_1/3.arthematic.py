@@ -32,3 +32,5 @@ print(num)
 """ 
 note: we can't do print(num += 6) inside the print statement 
 """
+
+print()

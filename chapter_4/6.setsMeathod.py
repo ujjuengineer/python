@@ -12,7 +12,7 @@ print()
 # adding element in sets
 collection = set() # empty set
 collection.add("ujjwal") # adding string 
-collection.add(("ras","ram")) # adding tupple
+collection.add(("mum","ram")) # adding tupple
 collection.add(7)
 collection.add(9)
 collection.add(22)

@@ -28,11 +28,11 @@ student.items() # return all (keys,val) pair as tuples
 itemList = list(student.items())
 print(itemList)
 # we can change the list
-itemList[0] = ("name", "rass")
+itemList[0] = ("name", "ram")
 print("changed list is :",itemList)
 
 
-print(student.get("name")) # to get the keys
+print(student.get("name")) # to get the keys value
 # see why we need this get meathod in next file
 print()
 

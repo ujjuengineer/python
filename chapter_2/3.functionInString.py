@@ -14,7 +14,7 @@ print()
 
 # to replace old characters to new characters
 print(str.replace("a","i"))
-print(str.replace("Ujjwal","rass")) # we can even replace a part of string
+print(str.replace("Ujjwal","Ram")) # we can even replace a part of string
 # note that using above 2 meathod, the original string is not getting changed, it will remains the same, if we print our original string it will show the same
 print(str)
 print()

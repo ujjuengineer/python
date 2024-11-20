@@ -7,7 +7,6 @@ print("list after appending :",list)
 print()
 
 
-
 # to sort any list , note that they do changes in original string
 
 list.sort() # sort in accending order

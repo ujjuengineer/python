@@ -22,7 +22,7 @@ print(); print()
 print(student["name"]) 
 
 # we can change the keys value
-student["name"] = "rass" #overwrite
+student["name"] = "ram" #overwrite
 student["grade"] = "A+"
 print(student)
 print()
@@ -46,6 +46,6 @@ print()
 her = {}
 
 # now we can add keys and its value to this dics
-her["name"] = "ras"
+her["name"] = "she"
 her["grade"] = "A+"
 print(her)
