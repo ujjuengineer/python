@@ -18,7 +18,7 @@ print()
 
 
 # sorting in string list are done according to ascii value
-stringList = ["Ujjw", "rass", "ujjw", "Ras"]
+stringList = ["Ujjw", "ram", "ujjw", "Ram"]
 print(stringList.sort()) # this will return none, because list.sort() don't have any return value
 print(stringList)
 print()
