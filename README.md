@@ -3,7 +3,7 @@
 <br>
 
 <h2>📚 About</h2>
-<p>As a first-year engineering student with a background in C++, C#, and DSA, I am now diving into Python. This repository will contain scripts, notes, and projects that reflect my learning journey, from the basics to more advanced topics.</p>
+<p>As a second-year engineering student with a background in C++, CP, and DSA, I am now diving into Python. This repository will contain scripts, notes, and projects that reflect my learning journey, from the basics to more advanced topics.</p>
 
 <h2>🔍 Structure</h2>
 <p>
