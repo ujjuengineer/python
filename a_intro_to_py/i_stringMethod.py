@@ -50,7 +50,7 @@ alpha_str = "Ujjwal"
 print(alpha_str.isalpha())  # Output: True
 
 # 7. replace() : replaces occurrences of a substring with another substring
-new_text = name.replace("sharma", "kumar")
+new_text = name.replace("sharma", "kumar") # note that original string remains unchanged
 print(new_text)  # Output: "ujjwal kumar"
 
 # 8. count() : counts occurrences of a substring in the string

@@ -1,4 +1,4 @@
-# input () : This function is used to take input from the user in Python. When this function is called, the program will pause and wait for the user to type something and press the Enter key. 
+# input () : When this function is called, the program will pause and wait for the user to type something and press the Enter key. 
 
 # The input provided by the user is then returned as a string. 
 # you can typecast the input to other data types if needed.

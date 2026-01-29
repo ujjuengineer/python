@@ -9,12 +9,12 @@
 a = "123"
 b = int(a)
 print(b)
-print(type(b))
+print(type(b)) # int
 
 c = 123
 d = str(c)
 print(d)
-print(type(d))
+print(type(d)) # str
 
 e = 123.45
 f = int(e)
