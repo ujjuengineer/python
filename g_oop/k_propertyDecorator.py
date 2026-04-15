@@ -25,6 +25,7 @@ class Rectangle :
         print(f"Getting height : ")
         return self._height
     # basically they are getter methods
+
     # similarly you can define setter and deleter methods using @<property_name>.setter and @<property_name>.deleter decorators respectively
 
 
@@ -89,7 +90,7 @@ print(rectangle.height)  # Output: Getting height : 7
 print("=================================================================================")
 
 
-del rectangle.width  # deleting width using deleter method
+del rectangle.width  # deleting width using deleter method 
 del rectangle.height  # deleting height using deleter method
 
 # print(rectangle.width)   # raises AttributeError as width is deleted

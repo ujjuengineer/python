@@ -82,7 +82,7 @@ print(max([10, 20, 5, 8]))          # 20
 
 
 # min()
-# Returns smallest value
+# Returns smallest value 
 print(min(3, 7, 2))                 # 2
 print(min([10, 20, 5, 8]))          # 5
 

@@ -18,7 +18,7 @@
 # example string
 name = "ujjwal sharma"
 
-# 1. len() : returns the length of the string
+# 1. len() : returns the length of the string 
 print(len(name))  # Output:  13 (including spaces)
 
 # 2. find() : returns the index of the first occurrence of the substring, otherwise -1

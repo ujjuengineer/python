@@ -26,7 +26,7 @@ hdfc = Atm(6969,436346)
 HOW THIS IS WORKING INTERNALLY ? 
 
 jese hi tum __pin define kiye
-python internally convert your variable as : _Atm__pin (__objName__variablename)
+python internally convert your variable as : _Atm__pin (_objName__variablename)
 
 
 """

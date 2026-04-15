@@ -39,7 +39,7 @@ rev_str = str[::-1]
 print(rev_str)  # Output: "lawjju"
 
 
-# print the last 4 digit of a number
+# print the last 4 digit of a number 
 num = "3453-7637-1234-5678"
 last_four_digits = num[-4:]
 print(last_four_digits)  # Output: "5678"

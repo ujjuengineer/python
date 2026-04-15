@@ -1,8 +1,4 @@
 """
-===========================================================
-        PYTHON CONCEPT - MODULES (DEEP NOTES)
-===========================================================
-
 CORE IDEA:
 ----------
 A module is simply a Python file (.py) that contains:
@@ -330,7 +326,7 @@ Python searches modules in this order:
 You can inspect this using:
 """
 
-import sys
+# import sys
 # print(sys.path)
 
 

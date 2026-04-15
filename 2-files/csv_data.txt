@@ -1,0 +1,4 @@
+name,age,university,degree
+ujjwal,22,mit,computer science
+jose,25,oxforx,computing
+div,30,cambridge,physics

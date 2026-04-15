@@ -2,10 +2,6 @@
 ================================================================================
         OBJECT-ORIENTED PROGRAMMING IN PYTHON - COMPLETE DEEP DIVE
 ================================================================================
-Author: Your Python Professor & Ex-Google/Microsoft SDE-3
-Purpose: Comprehensive OOP guide for future reference
-Level: Beginner to Advanced
-================================================================================
 
 TABLE OF CONTENTS:
 1. Introduction to OOP
@@ -58,12 +54,12 @@ CLASS: A blueprint/template for creating objects
 OBJECT: An instance of a class (actual entity created from the blueprint)
 
 Analogy: 
-- Class = Cookie cutter (blueprint)
-- Object = Actual cookie (instance)
+- Class = Cookie cutter (blueprint) 
+- Object = Actual cookie (instance) 
 """
 
 # -----------------------------
-# 2.1 Basic Class Structure
+# 2.1 Basic Class Structure 
 # -----------------------------
 
 class Student:
@@ -87,7 +83,7 @@ class Student:
         self.grade = grade
         
         # Increment class variable
-        Student.total_students += 1
+        Student.total_students += 1 
     
     # Instance method (operates on instance)
     def study(self, subject):
@@ -103,7 +99,7 @@ class Student:
     @classmethod
     def get_school_name(cls):
         """Returns the school name"""
-        return cls.school_name
+        return cls.school_name 
     
     @classmethod
     def change_school_name(cls, new_name):
@@ -141,7 +137,7 @@ print(Student.total_students)    # 3
 Student.change_school_name("Advanced Python Academy")
 print(student1.school_name)      # Advanced Python Academy (changed for all!)
 
-# Using static method, static methods are called using the class name
+# Using static method, static methods are called using the class name 
 print(Student.is_adult(student1.age))  # True
 print(Student.is_adult(student2.age))  # False
 
@@ -267,7 +263,7 @@ class SecureAccount:
     
     def get_balance(self):
         """Public method to access protected balance"""
-        return self._balance
+        return self._balance 
     
     def __internal_audit(self):
         """Private method - only used internally"""
@@ -275,7 +271,7 @@ class SecureAccount:
     
     def perform_transaction(self):
         """Public method that uses private method"""
-        self.__internal_audit()  # Can call private method internally
+        self.__internal_audit()  # Can call private method internally 
         print("Transaction completed")
 
 

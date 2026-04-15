@@ -1,16 +1,16 @@
 # collection : single variable use to store multiple values
 
-# list = [] ordered and changeable, duplicates ok, lists are mutable and its elements can be of different data types
+# list = [] ordered and changeable, duplicates ok, lists are mutable and its elements can be of different data types 
 
 # set = {} unordered and ele of sets are immutable, set itself are mutable so we can add/remove ele in sets, no duplicates allowed
 
 # tuple = () ordered and unchangable, duplicates OK, faster, they are immutable, mtlb bna diya to no add, no remove, no update
 
 
-# lets start with list
+# lets start with list 
 
-# summary of list methods:
-# append() - adds an element at the end
+# summary of list methods: 
+# append() - adds an element at the end 
 # insert() - adds an element at a specified position
 # remove() - removes the first occurrence of a specified element
 # pop() - removes and returns an element at a specified position (default is the last element
@@ -18,10 +18,10 @@
 # index() - returns the index of the first occurrence of a specified element
 # count() - returns the number of occurrences of a specified element
 # sort() - sorts the list in ascending order
-# reverse() - reverses the order of the list
+# reverse() - reverses the order of the list 
 # copy() - returns a shallow copy of the list, 
 
-# shallow copy means it creates a new list but the elements are references to the same objects, if the elements are mutable and you modify them, the changes will be reflected in both lists
+# shallow copy means it creates a new list but the elements are references to the same objects, if the elements are mutable and you modify them, the changes will be reflected in both lists 
 # extend() - extends the list by appending elements from another iterable (like another list, tuple, etc.)
 
 
@@ -72,8 +72,11 @@ if "banana" in fruits:
 print(len(fruits)) # 5
 
 # sort 
+fruits = ['kiwi', 'ornage', 'grapes', 'Ram', 'Ujjwal']
 fruits.sort()
-print(fruits) # [6.9, True, 'banana', 'kiwi', 'orange'] - sorts based on ASCII values
+print(fruits) # ['Ram', 'Ujjwal', 'grapes', 'kiwi', 'ornage'] - sorts based on ASCII values
+
+# NOTE : if list contains more than one data types then sorting the list will raise an error !!
 
 # clear list
 fruits.clear() # removes all items

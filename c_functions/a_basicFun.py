@@ -1,6 +1,3 @@
-# function : it is a block of reusable code that performs a specific task
-# place () after the name of the function to call it
-
 # defining a basic function
 def greet():
     print("Hello, welcome to Python functions!")
@@ -14,6 +11,7 @@ greet()
 # function with parameters
 def add(a, b):
     return a + b
+
 result = add(5, 3)
 print("Sum:", result)
 
@@ -54,13 +52,13 @@ def describe_person(name, age, city="Unknown"):
 describe_person(age=30, name="Alice") # city will use default value
 describe_person(name="Bob", age=25, city="New York")
 
-# make sure to use keyword arguments after positional arguments when mixing both
+# make sure to use keyword arguments after positional arguments when mixing both 
 describe_person("Charlie", age=28, city="Los Angeles") # valid
 # describe_person(age=28, "Charlie", city="Los Angeles") # invalid, will raise syntax error
 
 
 # in print() function, we often use keyword arguments like sep and end
-print("Hello", "World", sep=", ", end="!\n") # Output: Hello, World!
+print("Hello", "World", sep=", ", end="!\n") # Output: Hello, World! 
 
 # this sep and end are keyword arguments of print funciton
 
@@ -90,7 +88,7 @@ print();print()
 
 def sum_all(*numbers):
     total = 0
-    for num in numbers:
+    for num in numbers: 
         total += num
     return total
 
