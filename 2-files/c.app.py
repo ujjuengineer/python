@@ -1,3 +1,5 @@
+# csv files
+
 print() 
 
 file = open('csv_data.txt', 'r') 
@@ -14,8 +16,7 @@ lines = lines[1:] # slicing the list to get all the lines except the first one
 
 lines = [line.strip().split(',') for line in lines] # this is a list comprehension, it will iterate over each line in the lines list, and apply the strip() method to remove the newline character, and then apply the split(',') method to split the line into a list of strings, using comma as the separator, and then return a new list with the splitted lines
 
-# so basically it is returning us a list of lists, where each inner list contains the values of the columns for that line 
-
+# so basically it is returning us a list of lists (2D list), where each inner list contains the values of the columns for that line 
 
 
 for line in lines:

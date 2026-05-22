@@ -7,7 +7,7 @@ friends = input("enter 3 freinds, separeated by commas (no space please) : ").sp
 # .split(',') -> this will split the string into a list of strings, using comma as the separator
 
 
-people = open('people.txt', 'r')
+people = open('people.txt', 'r') 
 people_nearby = people.readlines() # gives you the list of lines 
 people.close()
 

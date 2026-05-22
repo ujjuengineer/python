@@ -342,7 +342,7 @@ class BankAccountAdvanced:
         """Get account holder name"""
         return self.__account_holder
     
-    # Setter for account holder (with validation)
+    # Setter for account holder (with validation) 
     @account_holder.setter
     def account_holder(self, name):
         """Set account holder name with validation"""

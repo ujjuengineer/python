@@ -44,4 +44,3 @@ electric_car1 = ElectricCar()
 electric_car1.start()  # Output: Vehicle started
 electric_car1.drive()  # Output: Car is driving
 electric_car1.charge() # Output: Electric car is charging
-
