@@ -45,5 +45,4 @@ all_employees = cursor.fetchall()
 print(all_employees)
 
 # 6. Clean up resources
-cursor.close()
 conn.close()
