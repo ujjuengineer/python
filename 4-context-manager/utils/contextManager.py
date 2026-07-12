@@ -9,7 +9,7 @@ class CustomFileOpen:
     def __enter__(self):
         self.file = open(self.filename, self.mode)
         return self.file # return the opened file pointer
-        
+
     def __exit__(self, exc_type, exc, tb):
         self.file.close()
 
